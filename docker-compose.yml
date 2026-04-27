@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  midtrans-app:
+    build: .
+    container_name: midtrans-python
+    env_file:
+      - .env
+    volumes:
+      - ./app:/app
+    working_dir: /app
+    command: python main.py
