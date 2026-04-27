@@ -20,7 +20,7 @@ Proyek ini adalah implementasi pengiriman data transaksi ke payment gateway **Mi
 └── app/
     ├── main.py             # Script utama (Logika bisnis)
     └── requirements.txt    # Dependency Python
-
+```
 ## 🚀 Alur Kerja Program
 Sesuai dengan dokumentasi resmi Midtrans, pengiriman data kartu kredit dilakukan dalam dua tahap untuk menjaga keamanan data (PCI-DSS):
 1. **GET Token:** Menukarkan data kartu mentah (*card number, exp, cvv*) menjadi `token_id` melalui endpoint `/v2/token`.
