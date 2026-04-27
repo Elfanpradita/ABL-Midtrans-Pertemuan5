@@ -1,8 +1,3 @@
-Tentu, ini adalah draf **README.md** yang profesional dan terstruktur untuk dokumentasi tugas Anda. File ini menjelaskan alur kerja program, struktur data sesuai rubrik, dan cara menjalankannya menggunakan Docker.
-
-Anda bisa menyalin teks di bawah ini ke dalam file `README.md` di folder proyek Anda:
-
-```markdown
 # Dokumentasi Integrasi Midtrans API - Tugas Sesi 5
 **Mata Kuliah:** Arsitektur Berbasis Layanan  
 **Topik:** HTTP Header & Method POST (Credit Card Payment)
@@ -25,7 +20,6 @@ Proyek ini adalah implementasi pengiriman data transaksi ke payment gateway **Mi
 └── app/
     ├── main.py             # Script utama (Logika bisnis)
     └── requirements.txt    # Dependency Python
-```
 
 ## 🚀 Alur Kerja Program
 Sesuai dengan dokumentasi resmi Midtrans, pengiriman data kartu kredit dilakukan dalam dua tahap untuk menjaga keamanan data (PCI-DSS):
@@ -54,16 +48,6 @@ Program berhasil dijalankan dengan respons sebagai berikut:
 - **Transaction Status:** Pending (Menunggu verifikasi 3DS)
 
 ---
-**Dibuat oleh:** [Nama Anda]  
+**Dibuat oleh:** ELFAN PRADITA RUSMIN 20230801068
 **Status Tugas:** Selesai
 ```
-
----
-
-### Tips Tambahan:
-Jika Anda ingin menyertakan dokumentasi ini ke dalam **PDF** sesuai instruksi rubrik:
-1. Buka file `README.md` ini di teks editor (seperti VS Code).
-2. Gunakan fitur "Export to PDF" atau salin isinya ke MS Word lalu rapikan sedikit sebelum di-save sebagai PDF.
-3. Jangan lupa lampirkan **Screenshot Terminal** yang tadi sudah berhasil (Status 200) sebagai bukti nyata bahwa script-nya jalan.
-
-Ada lagi yang bisa saya bantu untuk laporan tugasnya?
